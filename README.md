@@ -112,6 +112,14 @@ The baseline Support Vector Machine model achieved:
 
 Logistic Regression achieved the highest baseline AUC of approximately 90.66%.
 
+| Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.7275 | 0.9066 | 0.7329 | 0.7275 | 0.7277 | 0.6487 |
+| Decision Tree | 0.7429 | 0.8283 | 0.7455 | 0.7429 | 0.7429 | 0.6688 |
+| KNN | 0.7275 | 0.8941 | 0.7318 | 0.7275 | 0.7245 | 0.6548 |
+| Gaussian Naive Bayes | 0.4524 | 0.7955 | 0.5741 | 0.4524 | 0.4003 | 0.3789 |
+| Support Vector Machine | **0.7506** | 0.8974 | 0.7578 | 0.7506 | **0.7521** | **0.6769** |
+
 ## 9. Academic Project
 
 Developed as part of the Machine Learning coursework for the M.Tech Artificial Intelligence and Machine Learning programme at BITS Pilani Work Integrated Learning Programmes (WILP).
